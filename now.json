@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    { "src": "api/package.json", "use": "@now/node@canary" },
+    { "src": "www/package.json", "use": "@now/next" }
+  ],
+  "routes": [{ "src": "/api/(.*)", "dest": "/api/$1" }, { "src": "/(.*)", "dest": "/www/$1" }],
+  "github": {
+    "autoJobCancelation": true,
+    "enabled": false
+  }
+}

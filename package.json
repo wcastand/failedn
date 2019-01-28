@@ -1,0 +1,15 @@
+{
+  "name": "failedn",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "www",
+    "api",
+    "common"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}
