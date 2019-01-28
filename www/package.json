@@ -9,7 +9,7 @@
     "build": "next build"
   },
   "dependencies": {
-    "@scope/common": "1.0.0",
+    "werwtyukjytreawaresrdhfjgkhmfdsadafdgfhjjkngnfdfsadafgh": "*",
     "@zeit/next-typescript": "^1.1.1",
     "fork-ts-checker-webpack-plugin": "^0.5.2",
     "next": "^7.0.2",

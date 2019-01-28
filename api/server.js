@@ -9,7 +9,7 @@ const typeDefs = apollo_server_micro_1.gql `
 `;
 const resolvers = {
     Query: {
-        sayHello: (parent, args, context) => {
+        sayHello: (_, __, ___) => {
             const banana = "test";
             const pouet = { banana };
             return banana + pouet;

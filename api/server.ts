@@ -1,6 +1,6 @@
-import { Parent, Test } from "@scope/common";
 import { ApolloServer, gql } from "apollo-server-micro";
 import cors from "micro-cors";
+import { Parent, Test } from "werwtyukjytreawaresrdhfjgkhmfdsadafdgfhjjkngnfdfsadafgh";
 
 const typeDefs = gql`
   type Query {
@@ -10,7 +10,7 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    sayHello: (parent: any, args: any, context: any) => {
+    sayHello: (_: any, __: any, ___: any) => {
       const banana: Test = "test";
       const pouet: Parent = { banana };
       return banana + pouet;

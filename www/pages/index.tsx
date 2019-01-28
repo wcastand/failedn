@@ -1,5 +1,5 @@
-import { Parent, Test } from "@scope/common";
 import { NextStatelessComponent } from "next";
+import { Parent, Test } from "werwtyukjytreawaresrdhfjgkhmfdsadafdgfhjjkngnfdfsadafgh";
 
 const banana: Test = "banana";
 const tititti: Parent = { banana };

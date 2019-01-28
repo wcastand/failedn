@@ -15,7 +15,7 @@
     "@types/webpack": "^4.4.24"
   },
   "dependencies": {
-    "@scope/common": "1.0.0",
+    "werwtyukjytreawaresrdhfjgkhmfdsadafdgfhjjkngnfdfsadafgh": "*",
     "apollo-server-micro": "^2.3.2",
     "graphql": "^14.1.1",
     "micro-cors": "^0.1.1"
